@@ -759,7 +759,11 @@ h4 {
   background-color: rgba(165, 147, 99, 0.7);
   padding: 40px 40px 40px 40px;
 }
-
+/*.tangerine-background {
+  background-color: #f3976c7e;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}*/
 .bold-link {
   font-weight: 900;
   text-decoration: underline !important;
@@ -778,7 +782,7 @@ h4 {
 }
 
 .tc-white {
-  color: #000 !important;
+  color: #f5f5f5 !important;
 }
 
 .btn-atomic-tangerine {
@@ -825,7 +829,7 @@ h4 {
 }
 
 .bg-presentation {
-  background-image: url("img/image-de-presentation.bmp");
+  background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
