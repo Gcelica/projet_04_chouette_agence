@@ -4295,7 +4295,7 @@ tbody.collapse.in {
   margin-left: 2px;
   vertical-align: middle;
   border-top: 4px dashed;
-  border-top: 4px solid\9;
+  border-top: 4px solid;
   border-right: 4px solid transparent;
   border-left: 4px solid transparent;
 }
@@ -4431,7 +4431,7 @@ tbody.collapse.in {
   content: "";
   border-top: 0;
   border-bottom: 4px dashed;
-  border-bottom: 4px solid\9;
+  border-bottom: 4px solid;
 }
 
 .dropup .dropdown-menu,
@@ -5137,7 +5137,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   max-height: 340px;
 }
 
-@media (max-device-width: 480px) and (orientation: landscape) {
+@media (max-width: 480px) and (orientation: landscape) {
   .navbar-fixed-bottom .navbar-collapse,
   .navbar-fixed-top .navbar-collapse {
     max-height: 200px;
@@ -7867,19 +7867,19 @@ button.close {
       linear,
       left top,
       right top,
-      from(rgba(0, 0, 0, 0.5)),
-      to(rgba(0, 0, 0, 0.0001))
+      from rgba(0, 0, 0, 0.5),
+      to rgba(0, 0, 0, 0.0001)
     );
   background-image: linear-gradient(
-    to right,
-    rgba(0, 0, 0, 0.5) 0,
+    right,
+    rgba(0, 0, 0, 0.5) 0%,
     rgba(0, 0, 0, 0.0001) 100%
   );
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
   background-repeat: repeat-x;
 }
 
-.carousel-control.right {
+.carousel-control .right {
   right: 0;
   left: auto;
   background-image: -webkit-linear-gradient(
@@ -7901,7 +7901,7 @@ button.close {
       to(rgba(0, 0, 0, 0.5))
     );
   background-image: linear-gradient(
-    to right,
+    right,
     rgba(0, 0, 0, 0.0001) 0,
     rgba(0, 0, 0, 0.5) 100%
   );
