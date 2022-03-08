@@ -870,8 +870,8 @@ h4 {
   .b-parallax {
     background-attachment: scroll;
   }
-  .page-container,
-  #hero-bloc {
+  #hero-bloc,
+  .page-container {
     overflow-x: hidden;
     position: relative;
   }
